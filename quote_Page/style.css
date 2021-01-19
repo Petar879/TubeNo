@@ -1,0 +1,38 @@
+:root {
+    --background-primary: #F9F9F9;
+    --color-primary: #7F7F7F;
+    --background-primary-dark: #181818;
+  }
+  
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-primary);
+}
+
+body.dark{
+    background-color: var(--background-primary-dark);
+}
+
+p{
+    color: var(--color-primary);
+}
+
+#quotePlace{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 240%;
+    /* color: #7D7D7D; */
+}
+
+#logo{
+    padding-top: 10%;
+    padding-left: 28%;
+    padding-right: 25%;
+    width: 40%;
+    height: auto;
+}
+
+#logo.dark{
+    content: url("../img/logo_dark.svg");
+}
